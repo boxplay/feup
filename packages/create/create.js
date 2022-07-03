@@ -120,10 +120,23 @@ function existsTargetDir({ targetDir, options, inCurrent }) {
 
 async function getProject() {
   try {
-    const response = await got(
-      "https://ali-cyb-cdn.kaikeba.com/chanyan/feup/repository.json"
-    ).json();
-    return response;
+    // const response = await got(
+    //   "https://ali-cyb-cdn.kaikeba.com/chanyan/feup/repository.json"
+    // ).json();
+    // return response;
+    return {
+      "spa": {
+        "repo": "https://github.com/boxplay/feup-spa.git",
+        "branch": "master"
+      },
+      "ssr": {
+        "repo": "https://github.com/boxplay/ssr-kit.git"
+      },
+      "admin": {
+        "repo": "https://github.com/boxplay/feup-admin.git",
+        "branch": "master"
+      }
+    }
   } catch ({ message }) {
     console.error(" ");
     console.error(chalk.red.dim(`获取项目失败！`));
