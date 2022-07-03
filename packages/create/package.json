@@ -7,7 +7,7 @@
     "feup",
     "feup-create"
   ],
-  "author": "feupjs <feupjs@163.com>",
+  "author": "boxplay <903199865@qq.com>",
   "homepage": "",
   "license": "MIT",
   "main": "create.js",
@@ -21,14 +21,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/feupjs/feup.git",
+    "url": "https://github.com/boxplay/feup.git",
     "directory": "packages/create"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "maintainers": [
-    "feupjs"
+    "boxplay"
   ],
   "dependencies": {
     "chalk": "^4.1.1",

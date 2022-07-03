@@ -25,10 +25,7 @@ function printBanner(logger) {
         // process.exit(2);
       }
       console.info(`\n${data}`);
-      console.info(`FEUP，current version: v1, homepage: https://github.com/feupjs/feup`);
-      console.info(
-        ' (c) powered by FEUP JS, aims to improve front end workflow.                                       ',
-      );
+      console.info(`FEUP，current version: v1, homepage: https://github.com/boxplay/feup`);
       console.info(' Run feup --help to see usage.                                     ');
     },
   );
