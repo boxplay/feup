@@ -100,7 +100,7 @@ program.on('--help', () => {
 });
 
 
-if(minimist(process.argv.slice(2))._.length == 0){
+if(minimist(process.argv.slice(2))._.length === 0){
   printBanner()
 }else{
   program.parse(process.argv);
