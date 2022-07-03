@@ -1,11 +1,11 @@
 {
-  "name": "feup",
-  "version": "0.1.20",
+  "name": "feupx",
+  "version": "0.0.1",
   "testName": "",
   "description": "Command line interface for rapid React.js development",
   "keywords": [
-    "feup",
-    "feup-cli",
+    "feupx",
+    "feupx-cli",
     "cli"
   ],
   "author": "boxplay <903199865@qq.com>",

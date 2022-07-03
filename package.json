@@ -1,5 +1,5 @@
 {
-  "name": "feup",
+  "name": "feupx",
   "private": true,
   "workspaces": [
     "packages/*"

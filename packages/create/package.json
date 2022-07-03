@@ -1,11 +1,11 @@
 {
-  "name": "feup-create",
-  "version": "0.1.6",
+  "name": "feupx-create",
+  "version": "0.0.1",
   "description": "create react app",
   "keywords": [
     "create",
-    "feup",
-    "feup-create"
+    "feupx",
+    "feupx-create"
   ],
   "author": "boxplay <903199865@qq.com>",
   "homepage": "",
